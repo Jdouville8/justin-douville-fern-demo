@@ -1,10 +1,10 @@
-# The Green Room API Documentation
+# The Plant Room API Documentation
 
-Welcome to The Green Room API documentation repository! This repository contains the complete documentation site and SDK generation configuration for The Green Room Plant Store API.
+Welcome to The Plant Room API documentation repository! This repository contains the complete documentation site and SDK generation configuration for The Plant Room Plant Store API.
 
 ## Overview
 
-The Green Room is a comprehensive plant marketplace API that allows you to manage your plant inventory, search for plants by various criteria, and handle user operations. This repository uses [Fern](https://buildwithfern.com) to generate beautiful documentation and SDKs in multiple programming languages.
+The Plant Room is a comprehensive plant marketplace API that allows you to manage your plant inventory, search for plants by various criteria, and handle user operations. This repository uses [Fern](https://buildwithfern.com) to generate beautiful documentation and SDKs in multiple programming languages.
 
 ## Quick Start
 
@@ -109,7 +109,7 @@ All SDKs include:
 
 ## API Endpoints
 
-The Green Room API provides the following core functionality:
+The Plant Room API provides the following core functionality:
 
 - **Plant Management**
   - `POST /plant` - Add a new plant
@@ -158,4 +158,4 @@ For questions or issues:
 
 ## License
 
-This project is configured for The Green Room Plant Store API documentation and SDK generation.
+This project is configured for The Plant Room Plant Store API documentation and SDK generation.
