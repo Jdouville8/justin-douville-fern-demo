@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
+default-group: all
+api:
+  specs:
+    - openapi: openapi/api.yml
+groups:
+  all:
+    generators:
+      - name: fernapi/fern-typescript-sdk
+        version: 3.34.0
+        output:
+          location: local-file-system
+          path: ../sdks/typescript
+      - name: fernapi/fern-python-sdk
+        version: 4.41.1
+        output:
+          location: local-file-system
+          path: ../sdks/python
+      - name: fernapi/fern-java-sdk
+        version: 3.20.0
+        output:
+          location: local-file-system
+          path: ../sdks/java/src/main/java/
+      - name: fernapi/fern-go-sdk
+        version: 1.18.3
+        output:
+          location: local-file-system
+          path: ../sdks/go
+        config:
+          module:
+            path: sdk
+  ts-sdk:
+    generators:
+      - name: fernapi/fern-typescript-sdk
+        version: 3.34.0
+        output:
+          location: local-file-system
+          path: ../sdks/typescript
+  python-sdk:
+    generators:
+      - name: fernapi/fern-python-sdk
+        version: 4.41.1
+        output:
+          location: local-file-system
+          path: ../sdks/python
+  java-sdk:
+    generators:
+      - name: fernapi/fern-java-sdk
+        version: 3.20.0
+        output:
+          location: local-file-system
+          path: ../sdks/java/src/main/java/
+  go-sdk:
+    generators:
+      - name: fernapi/fern-go-sdk
+        version: 1.18.3
+        output:
+          location: local-file-system
+          path: ../sdks/go
+        config:
+          module:
+            path: sdk

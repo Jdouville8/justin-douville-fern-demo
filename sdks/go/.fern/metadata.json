@@ -1,0 +1,10 @@
+{
+  "cliVersion": "2.8.2",
+  "generatorName": "fernapi/fern-go-sdk",
+  "generatorVersion": "1.18.3",
+  "generatorConfig": {
+    "module": {
+      "path": "sdk"
+    }
+  }
+}

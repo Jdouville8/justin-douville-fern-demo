@@ -1,0 +1,45 @@
+/* Tooltip hover effects */
+.demo-container {
+  cursor: help;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.demo-container:hover {
+  transform: translateY(-5px) translateX(40px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom tooltip styling using Fern's selectors */
+.fern-mdx-tooltip-content {
+  background: #3C3C3C;
+  color: #FCF9F2;
+  border: 2px solid #5C4331;
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  font-size: 18px;
+}
+
+.fern-mdx-tooltip-content strong {
+  color: #FCF9F2;
+  font-size: 22px;
+}
+
+.fern-mdx-tooltip-content code {
+  background: #5C4331;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #FCF9F2;
+  font-family: 'Courier New', monospace;
+}
+
+.fern-mdx-tooltip-content a {
+  color: #FCF9F2;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.fern-mdx-tooltip-content a:hover {
+  color: #e8e4dc;
+}

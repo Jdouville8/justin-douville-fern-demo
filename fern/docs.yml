@@ -1,0 +1,32 @@
+instances:
+  - url: https://justin-douville.docs.buildwithfern.com
+title: Sample | Documentation
+
+navigation:
+
+  - section: Overview
+    contents:
+    - page: The Plant Store
+      path: ./pages/the-plant-store.mdx
+    - page: Getting Started
+      path: ./pages/getting-started.mdx
+
+  - api: API Reference
+colors:
+  accentPrimary: 
+    light: '#5C4331'
+    dark: '#3C3C3C'
+  background: 
+    light: '#FCF9F2'
+    dark: '#191919'
+logo:
+  dark: ./assets/plant-room-logo-dark.svg
+  light: ./assets/plant-room-logo-light.svg
+  height: 50
+  href: https://justin-douville.docs.buildwithfern.com
+favicon: ./assets/favicon.ico
+css:
+  - ./styles.css
+  - ./overview-styles.css
+js:
+  - ./custom.js

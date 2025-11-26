@@ -1,0 +1,25 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.demo-container {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.demo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.lift-icon {
+  border: 1px solid #000000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+}
+
+:where(*) {
+  font-family: "Varela Round", sans-serif;
+}

@@ -1,0 +1,64 @@
+# Getting Started
+
+> Learn how to get off the ground and touch the sky
+
+<Card
+  title="Language Examples"
+  icon={<img className="lift-icon" src="/assets/getting-started.svg" alt="Plant Room Logo" />}
+  href="#"
+>
+
+Here are some common langauge examples for use to call the plant store and see what's in stock!
+
+  <Tabs>
+    <Tab title="TypeScript">
+```typescript
+import { TheGreenRoomApiClient } from "@fern-api/plantstore";
+
+const client = new TheGreenRoomApiClient();
+const plants = await client.plant.searchPlantsByStatus({
+  status: "available"
+});
+console.log(plants);
+```
+    </Tab>
+
+    <Tab title="Python">
+```python
+from the_green_room import TheGreenRoomApi
+
+client = TheGreenRoomApi()
+plants = client.plant.search_plants_by_status(status="available")
+print(plants)
+```
+    </Tab>
+
+    <Tab title="Go">
+```go
+import (
+    "context"
+    thegreenroom "github.com/fern-api/plantstore-go"
+)
+
+client := thegreenroom.NewClient()
+plants, err := client.Plant.SearchPlantsByStatus(
+    context.TODO(),
+    &thegreenroom.SearchPlantsByStatusRequest{
+        Status: thegreenroom.String("available"),
+    },
+)
+```
+    </Tab>
+
+    <Tab title="Java">
+```java
+import com.the_green_room.api.TheGreenRoomApiClient;
+import com.the_green_room.api.resources.plant.types.PlantResponse;
+
+TheGreenRoomApiClient client = TheGreenRoomApiClient.builder().build();
+List<PlantResponse> plants = client.plant().searchPlantsByStatus("available");
+System.out.println(plants);
+```
+    </Tab>
+  </Tabs>
+</Card>
