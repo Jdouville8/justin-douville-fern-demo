@@ -1,10 +1,10 @@
-// Floating Action Button for Plant Store
+// Floating Action Button for Plant Room
 (function() {
   // Create the floating action button
   const fab = document.createElement('button');
   fab.id = 'plant-store-fab';
   fab.innerHTML = '🌿';
-  fab.setAttribute('aria-label', 'Visit Plant Store');
+  fab.setAttribute('aria-label', 'Visit The Plant Room');
   fab.style.cssText = `
     position: fixed;
     bottom: 24px;

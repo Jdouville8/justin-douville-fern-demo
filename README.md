@@ -90,7 +90,7 @@ archive-docs/
 - **Multi-language SDK Examples**: Code snippets in TypeScript, Python, Java, and Go
 - **Custom Styling**: Branded color scheme and typography using Varela Round font
 - **Interactive Components**: Hover tooltips showcasing different plant varieties
-- **Floating Action Button**: Quick access to the Plant Store website
+- **Floating Action Button**: Quick access to the Plant Store website [THIS FEATURE WILL NOT WORK AS THE LINK TAKES USER TO PUBLIC DOCS INSTEAD OF PREVIEW LINK]
 
 ### SDKs
 

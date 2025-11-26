@@ -6,8 +6,8 @@ navigation:
 
   - section: Overview
     contents:
-    - page: The Plant Store
-      path: ./pages/the-plant-store.mdx
+    - page: The Plant Room
+      path: ./pages/the-plant-room.mdx
     - page: Getting Started
       path: ./pages/getting-started.mdx
 
