@@ -35,7 +35,7 @@ To generate and preview the documentation locally:
 ```bash
 fern generate --docs --preview
 ```
-There was an issue introduced after changing the organzation name later in the process of developlment.
+There was an issue introduced after changing the organization name later in the process of development.
 
 Instead of https://justin-douville.docs.buildwithfern.com, the documentation will be available at the provided preview link where it still runs safely
 
