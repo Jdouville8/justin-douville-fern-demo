@@ -38,7 +38,7 @@
 
   // Add click handler to navigate to the website
   fab.addEventListener('click', function() {
-    window.location.href = 'https://justin.douville.docs.buildwithfern.com';
+    window.location.href = 'https://theplantroom.docs.buildwithfern.com';
   });
 
   // Append to body when DOM is ready

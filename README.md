@@ -24,20 +24,18 @@ npm install -g fern-api
 2. Clone this repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Jdouville8/justin-douville-fern-demo
 cd archive-docs
 ```
 
-### Generate Documentation [VERY IMPORTANT NOTE]
+### Generate Documentation
 
 To generate and preview the documentation locally:
 
 ```bash
-fern generate --docs --preview
+fern generate --docs
 ```
-There was an issue introduced after changing the organization name later in the process of development.
-
-Instead of https://justin-douville.docs.buildwithfern.com, the documentation will be available at the provided preview link where it still runs safely
+Now you will be able to access the docs at: https://theplantroom.docs.buildwithfern.com
 
 ### Generate SDKs
 
@@ -90,7 +88,7 @@ archive-docs/
 - **Multi-language SDK Examples**: Code snippets in TypeScript, Python, Java, and Go
 - **Custom Styling**: Branded color scheme and typography using Varela Round font
 - **Interactive Components**: Hover tooltips showcasing different plant varieties
-- **Floating Action Button**: Quick access to the Plant Store website [THIS FEATURE WILL NOT WORK AS THE LINK TAKES USER TO PUBLIC DOCS INSTEAD OF PREVIEW LINK]
+- **Floating Action Button**: Quick access to the Plant Store website
 
 ### SDKs
 

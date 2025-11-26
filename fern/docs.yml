@@ -1,5 +1,5 @@
 instances:
-  - url: https://justin-douville.docs.buildwithfern.com
+  - url: https://theplantroom.docs.buildwithfern.com
 title: Sample | Documentation
 
 navigation:
@@ -23,7 +23,7 @@ logo:
   dark: ./assets/plant-room-logo-dark.svg
   light: ./assets/plant-room-logo-light.svg
   height: 50
-  href: https://justin-douville.docs.buildwithfern.com
+  href: https://theplantroom.docs.buildwithfern.com
 favicon: ./assets/favicon.ico
 css:
   - ./styles.css
