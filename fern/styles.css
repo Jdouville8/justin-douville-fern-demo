@@ -43,6 +43,30 @@
   line-height: 1.7 !important;
 }
 
+/* Increase header/navbar height */
+#fern-header {
+  --header-height: 80px; /* Default is around 60px */
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  min-height: 80px;
+}
+
+/* Make logo container bigger */
+.fern-header-logo-container {
+  height: 70px !important;
+  gap: 1rem !important;
+}
+
+/* Increase navbar link font size */
+.fern-header-navbar-links {
+  font-size: 18px !important;
+}
+
+/* Add extra gap between header and page content */
+#fern-docs main {
+  margin-top: calc(var(--header-height) + 12px) !important;
+}
+
 /* Intro card light mode */
 @media (prefers-color-scheme: light) {
   .intro-card,
@@ -58,11 +82,85 @@
 @media (prefers-color-scheme: dark) {
   .intro-card,
   .intro-card .fern-card {
-    background: linear-gradient(135deg, #f5f1eb 0%, #FCF9F2 100%) !important;
-    border: 2px solid #5C4331 !important;
-    box-shadow: 0 6px 20px rgba(92, 67, 49, 0.2) !important;
-    color: #2d2622 !important;
+    background: linear-gradient(135deg, #1f1915 0%, #2e241d 100%) !important;
+    border: 2px solid #7D5A3F !important;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45) !important;
+    color: #FCF9F2 !important;
+    --fern-card-border-color: #3d2f25;
   }
+
+  /* Normalize text and heading colors */
+  .intro-card h1,
+  .intro-card h2,
+  .intro-card h3,
+  .intro-card h4,
+  .intro-card h5,
+  .intro-card h6,
+  .intro-card p,
+  .intro-card .fern-card .font-semibold,
+  .intro-card .fern-card .text-(color\:--grayscale-a11) {
+    color: #FCF9F2 !important;
+  }
+
+  /* Table styling inside intro cards */
+  .intro-card .fern-table {
+    background: transparent !important;
+    color: #FCF9F2 !important;
+    border-color: #3d2f25 !important;
+  }
+
+  .intro-card .fern-table th,
+  .intro-card .fern-table td {
+    background: transparent !important;
+    color: #FCF9F2 !important;
+    border-color: #3d2f25 !important;
+  }
+
+  .intro-card .fern-table th {
+    font-weight: 700;
+  }
+
+  .intro-card a {
+    color: #e7d9cc !important;
+  }
+}
+
+/* Fern dark theme toggle (data-theme / .dark) */
+:is(.dark, [data-theme="dark"]) .intro-card,
+:is(.dark, [data-theme="dark"]) .intro-card .fern-card {
+  background: linear-gradient(135deg, #1f1915 0%, #2e241d 100%) !important;
+  border: 2px solid #7D5A3F !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45) !important;
+  color: #FCF9F2 !important;
+}
+
+:is(.dark, [data-theme="dark"]) .intro-card h1,
+:is(.dark, [data-theme="dark"]) .intro-card h2,
+:is(.dark, [data-theme="dark"]) .intro-card h3,
+:is(.dark, [data-theme="dark"]) .intro-card h4,
+:is(.dark, [data-theme="dark"]) .intro-card h5,
+:is(.dark, [data-theme="dark"]) .intro-card h6,
+:is(.dark, [data-theme="dark"]) .intro-card p,
+:is(.dark, [data-theme="dark"]) .intro-card .fern-card .font-semibold,
+:is(.dark, [data-theme="dark"]) .intro-card .fern-card .text-(color\:--grayscale-a11) {
+  color: #FCF9F2 !important;
+}
+
+:is(.dark, [data-theme="dark"]) .intro-card .fern-table {
+  background: transparent !important;
+  color: #FCF9F2 !important;
+  border-color: #3d2f25 !important;
+}
+
+:is(.dark, [data-theme="dark"]) .intro-card .fern-table th,
+:is(.dark, [data-theme="dark"]) .intro-card .fern-table td {
+  background: transparent !important;
+  color: #FCF9F2 !important;
+  border-color: #3d2f25 !important;
+}
+
+:is(.dark, [data-theme="dark"]) .intro-card a {
+  color: #e7d9cc !important;
 }
 
 :where(*) {

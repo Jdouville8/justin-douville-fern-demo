@@ -10,6 +10,8 @@ navigation:
       path: ./pages/the-plant-room.mdx
     - page: Getting Started
       path: ./pages/getting-started.mdx
+    - page: OpenAPI Reference
+      path: ./pages/openapi-reference.mdx
 
   - api: API Reference
 colors:
@@ -22,7 +24,7 @@ colors:
 logo:
   dark: ./assets/plant-room-logo-dark.svg
   light: ./assets/plant-room-logo-light.svg
-  height: 50
+  height: 70
   href: https://theplantroom.docs.buildwithfern.com
 favicon: ./assets/favicon.ico
 css:
