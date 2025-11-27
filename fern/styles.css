@@ -170,6 +170,12 @@
   color: #e7d9cc !important;
 }
 
+/* Make content full-width */
+.fern-layout-guide article.w-content-width {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
 :where(*) {
   font-family: "Varela Round", sans-serif;
 }
