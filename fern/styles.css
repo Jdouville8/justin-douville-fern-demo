@@ -106,8 +106,7 @@
   .intro-card h5,
   .intro-card h6,
   .intro-card p,
-  .intro-card .fern-card .font-semibold,
-  .intro-card .fern-card .text-(color\:--grayscale-a11) {
+  .intro-card .fern-card .font-semibold {
     color: #FCF9F2 !important;
   }
 
@@ -150,8 +149,7 @@
 :is(.dark, [data-theme="dark"]) .intro-card h5,
 :is(.dark, [data-theme="dark"]) .intro-card h6,
 :is(.dark, [data-theme="dark"]) .intro-card p,
-:is(.dark, [data-theme="dark"]) .intro-card .fern-card .font-semibold,
-:is(.dark, [data-theme="dark"]) .intro-card .fern-card .text-(color\:--grayscale-a11) {
+:is(.dark, [data-theme="dark"]) .intro-card .fern-card .font-semibold {
   color: #FCF9F2 !important;
 }
 
