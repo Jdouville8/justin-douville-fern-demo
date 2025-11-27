@@ -64,7 +64,16 @@
 
 /* Add extra gap between header and page content */
 #fern-docs main {
-  margin-top: calc(var(--header-height) + 12px) !important;
+  margin-top: calc(var(--header-height) + 32px) !important;
+}
+
+/* Keep asides clear of the fixed header when they stick */
+@media (min-width: 1024px) {
+  .fern-layout-reference-aside {
+    position: sticky !important;
+    top: calc(var(--header-height) + 32px) !important;
+    padding-top: 8px !important;
+  }
 }
 
 /* Intro card light mode */
