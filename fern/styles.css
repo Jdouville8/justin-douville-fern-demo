@@ -6,7 +6,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   padding: 1rem;
   border-radius: 8px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .demo-container img {
@@ -18,6 +18,51 @@
   border: 1px solid #000000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   border-radius: 2px;
+}
+
+/* Default Aside styling */
+.fern-layout-reference-aside .fern-card {
+  border: 2px solid #5C4331 !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+  padding: 24px !important;
+}
+
+/* Center Aside titles */
+.fern-layout-reference-aside .fern-card .font-semibold {
+  text-align: center !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Intro card base */
+.intro-card,
+.intro-card .fern-card {
+  border-radius: 8px !important;
+  padding: 24px !important;
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+}
+
+/* Intro card light mode */
+@media (prefers-color-scheme: light) {
+  .intro-card,
+  .intro-card .fern-card {
+    background: linear-gradient(135deg, #e8dfd4 0%, #f5f0e8 100%) !important;
+    border: 2px solid #5C4331 !important;
+    box-shadow: 0 6px 20px rgba(92, 67, 49, 0.15) !important;
+    color: #2d2622 !important;
+  }
+}
+
+/* Intro card dark mode */
+@media (prefers-color-scheme: dark) {
+  .intro-card,
+  .intro-card .fern-card {
+    background: linear-gradient(135deg, #f5f1eb 0%, #FCF9F2 100%) !important;
+    border: 2px solid #5C4331 !important;
+    box-shadow: 0 6px 20px rgba(92, 67, 49, 0.2) !important;
+    color: #2d2622 !important;
+  }
 }
 
 :where(*) {

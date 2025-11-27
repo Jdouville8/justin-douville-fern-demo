@@ -1,53 +1,41 @@
 # The Plant Room
 
-> A single marketplace for all your household horticulture needs
+> A single API for exploring, organizing, and interacting with plant data.
 
-<Success icon="tree">Check out some beautiful variants from our large selection of rare plants</Success>
+<Success icon="tree">Check out some fun plant data examples sourced from our growing API collection.</Success>
 
-<Tooltip
-  tip={
-    <div>
-      <strong>Monstera deliciosa</strong>
-      <br /><br />
-      Those famous split leaves (called fenestrations) aren't just aesthetic — in the wild, Monsteras develop holes so rain, wind, and debris can pass through in the jungle canopy without tearing the leaf.
-    </div>
-  }
-  side="right"
-  sideOffset={80}
->
-  <Frame className="demo-container">
-    <img className="lift-icon" src="/assets/swiss-cheese.svg" alt="Monstera deliciosa"/>
-  </Frame>
-</Tooltip>
+<Frame className="demo-container plant-card">
+  <img className="lift-icon" src="/assets/swiss-cheese.svg" alt="Monstera deliciosa"/>
+  <div className="plant-info">
+    <strong>Monstera deliciosa</strong>
+    <br /><br />
+    Those famous split leaves (called fenestrations) aren't just aesthetic — in the wild, Monsteras develop holes so rain, wind, and debris can pass through in the jungle canopy without tearing the leaf.
+  </div>
+</Frame>
 
-<Tooltip
-  tip={
-    <div>
-      <strong>Philodendron</strong>
-      <br /><br />
-      These climbing plants use aerial roots to attach to trees in tropical rainforests. They're one of the most diverse plant genera with over 450 species, and they're known for their ability to purify indoor air.
-    </div>
-  }
-  side="right"
-  sideOffset={80}
->
-  <Frame className="demo-container">
-    <img className="lift-icon" src="/assets/philodendron.svg" alt="Philodendron"/>
-  </Frame>
-</Tooltip>
+<Frame className="demo-container plant-card">
+  <img className="lift-icon" src="/assets/philodendron.svg" alt="Philodendron"/>
+  <div className="plant-info">
+    <strong>Philodendron</strong>
+    <br /><br />
+    These climbing plants use aerial roots to attach to trees in tropical rainforests. They're one of the most diverse plant genera with over 450 species, and they're known for their ability to purify indoor air.
+  </div>
+</Frame>
 
-<Tooltip
-  tip={
-    <div>
-      <strong>Elephant Ear (Alocasia)</strong>
-      <br /><br />
-      Named for their massive, elephant ear-shaped leaves, these tropical plants can grow leaves up to 3 feet long. They're native to Southeast Asia and can store water in their thick rhizomes to survive dry periods.
-    </div>
-  }
-  side="right"
-  sideOffset={80}
->
-  <Frame className="demo-container">
-    <img className="lift-icon" src="/assets/elephant-ear.svg" alt="Elephant Ear"/>
-  </Frame>
-</Tooltip>
+<Frame className="demo-container plant-card">
+  <img className="lift-icon" src="/assets/elephant-ear.svg" alt="Elephant Ear"/>
+  <div className="plant-info">
+    <strong>Elephant Ear (Alocasia)</strong>
+    <br /><br />
+    Named for their massive, elephant ear-shaped leaves, these tropical plants can grow leaves up to 3 feet long. They're native to Southeast Asia and can store water in their thick rhizomes to survive dry periods.
+  </div>
+</Frame>
+
+<Aside className="intro-card">
+<Card title="The Plant Room API">
+
+The Plant Room API was originally built as a simple internal tool for cataloging a few dozen houseplants, but over time it evolved into a robust platform designed to help people discover the perfect plant for any space. As the dataset grew-from common succulents to rare tropical species-the API became a reliable backbone for plant educators, hobbyists, and storefronts alike. Today, it offers structured, searchable information on plant care, lighting needs, watering schedules, and visual characteristics, making it easier than ever for developers to build rich plant-finding experiences into their apps and websites. Whether someone is choosing their first low-maintenance desk plant or exploring unique species for a curated collection, the Plant Store API provides the clarity and guidance to help every user grow with confidence.
+<br /><br />
+The Plant Store API is also a great playground for creativity - developers can use it to build everything from simple plant browsers to interactive experiences that respond to user preferences in real time. Its flexible endpoints invite you to experiment with searching, organizing, and presenting plant data in fun new ways, or even to automate little plant-related workflows of your own. Whether you're learning how APIs work or dreaming up your next green-themed project, it gives you a welcoming space to tinker, explore, and bring your ideas to life.
+</Card>
+</Aside>
